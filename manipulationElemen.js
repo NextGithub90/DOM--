@@ -1,13 +1,13 @@
 // setatribut
 // getatribut
 // removeatribut
-/* let judul = document.getElementById("judul");
+let judul = document.getElementById("judul");
 judul.setAttribute("class", "title");
 const classf = document.getElementsByClassName("title");
 classf[0].innerHTML = "<marquee>haloooo</marquee>";
 const a = document.querySelector("a");
 
-console.log(a.getAttribute("href")); */
+console.log(a.getAttribute("href"));
 
 // classlist
 // classlist.add

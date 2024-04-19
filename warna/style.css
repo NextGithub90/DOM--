@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+.container {
+  width: 600px;
+  margin: auto;
+  border: 5px solid rgb(123, 107, 151);
+}
+.thumb {
+  width: 200px;
+  float: left;
+  border: 2px solid snow;
+  box-sizing: border-box;
+}
+.kosong {
+  clear: both;
+}
+.thumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.fade {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+.active {
+  opacity: 0.5;
+}
